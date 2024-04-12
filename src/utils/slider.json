@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Wedding Planner",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu ",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Decoration",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Entertainment",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Hospitality",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Corperate Events",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Catering",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Photography and Videography",
+    "detail": "Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu Hulu hulu hulu",
+    "image": "./r3.png"
+  }
+]
