@@ -12,10 +12,10 @@ const Header = () => {
   const headerColor = useHeaderColor();
 
   return (
-    <section className="h-wrapper" style={{ background: headerColor }}>
+    <section className="App h-wrapper" style={{ background: headerColor }}>
       <div className="flexCenter innerWidth paddings h-container">
         {/* logo */}
-        <img src="./logo.png" alt="logo" width={100} />
+       <Link to='/'><img src="./logo.png" alt="logo" width={100} /></Link>
 
         {/* menu */}
         <OutsideClickHandler

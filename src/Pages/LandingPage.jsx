@@ -5,7 +5,7 @@ import Companies from "../components/Companies/Companies";
 import Value from "../components/Value/Value";
 import Contact from "../components/Contact/Contact";
 import GetStarted from "../components/GetStarted/GetStarted";
-import testimonial from "../components/Testimonials";
+import Testimonials from "../components/Testimonials";
 
 
 function LandingPage() {
@@ -17,8 +17,7 @@ function LandingPage() {
       <Value />
       <Contact />
       <GetStarted />
-      <testimonial />
-      {/* <Footer /> */}
+      {/* <Testimonials /> */}
     </div>
   );
 }

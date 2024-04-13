@@ -1,0 +1,87 @@
+.services-container {
+    width: 80%; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    font-family: 'Arial', sans-serif;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+    border: 1px solid #3498db; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.service-item.left {
+    flex-direction: row; /* Image on the left, text on the right */
+}
+
+.service-item.right {
+    flex-direction: row-reverse; /* Image on the right, text on the left */
+}
+
+.service-image img {
+    width: 50%; /* Adjust as needed */
+    height: auto;
+    transition: transform 0.3s ease; /* For hover effect */
+    border: 4px solid #3498db; /* Blue border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.service-image img:hover {
+    transform: scale(1.05); /* Slightly increase image size on hover */
+}
+
+.service-text {
+    width: 50%; /* Adjust as needed */
+    padding: 20px; /* Padding around the text */
+}
+
+.service-title {
+    font-size: 1.5rem;
+    color: #2c3e50; /* Dark text color */
+    margin-bottom: 10px; /* Space between title and text */
+}
+
+.learn-more-btn {
+    padding: 8px 16px;
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Add space above the button */
+}
+
+.learn-more-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.many-more {
+    text-align: center; /* Center the "and many more" button */
+    margin-top: 40px; /* Space at the top */
+}
+
+.many-more-btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #3498db; /* Blue background */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.many-more-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
